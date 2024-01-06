@@ -1,0 +1,19 @@
+
+@media (max-width: 600px) {
+    .mt-20 {
+        margin-top: 48% !important;
+      
+    }
+}
+@media (max-width: 400px) {
+    .mt-20 {
+        margin-top: 55% !important;
+      
+    }
+}
+@media (max-width: 350px) {
+    .mt-20 {
+        margin-top: 65% !important;
+      
+    }
+}

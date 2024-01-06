@@ -1,0 +1,139 @@
+/*GRIDS-CARD*/
+.mlxty{
+  margin-left: 170%;
+}
+@media (max-width: 1024px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(3, 220px) !important;
+    
+  }
+  .max-w-screen-lg {
+    max-width: 80% !important;
+     /* Cambia el ancho máximo para resoluciones más pequeñas que lg */
+  }
+  .mlxty{
+    margin-left: 115%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .grid {
+     margin-right: 6% !important;
+  }
+} 
+
+
+@media (max-width: 830px) {
+  
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 220px) !important;
+    
+  }
+  .max-w-screen-lg {
+    max-width: 55% !important;
+  }
+
+
+  .mlxty{
+    margin-left: 55%;
+  }
+}
+
+  @media (max-width: 760px) {
+      
+    .max-w-screen-lg {
+      max-width: 62% !important;
+    }
+    
+  }  
+
+  @media (max-width: 630px) {
+      .mt-10{
+        margin-top: 40% !important;
+      }
+    .max-w-screen-lg {
+      max-width: 75% !important;
+    }
+    
+  }  
+  @media (max-width: 580px) {
+      
+    .grid-cols-4 {
+      grid-template-columns: repeat(2, 220px) !important;
+      
+    }
+    .max-w-screen-lg {
+      max-width: 80% !important;
+    }
+  }
+  @media (max-width: 540px) {
+      
+    .max-w-screen-lg {
+      max-width: 85% !important;
+    }
+  }
+  @media (max-width: 520px) {
+    .grid-cols-4 {
+      grid-template-columns: repeat(1, 100%) !important;   
+      row-gap: 0px !important;
+      margin-left: 10% !important;
+      grid-auto-rows: 350px !important; 
+    }
+    .max-w-screen-lg {
+      max-width: 58% !important;
+    }
+    .w-80{
+      width: 90% !important;
+    }
+    
+  .mlxty{
+    margin-left: 5%;
+  }
+    
+  }
+  @media (max-width: 470px) {
+    .grid-cols-4 {
+      grid-template-columns: repeat(1, 100%) !important;   
+      row-gap: 0px !important;
+      margin-left: 10% !important;
+      grid-auto-rows: 350px !important; 
+    }
+    
+  }
+  @media (max-width: 430px) {
+    .grid-cols-4 {
+      grid-template-columns: repeat(1, 100%) !important;   
+      row-gap: 0px !important;
+      margin-left: 10% !important;
+      grid-auto-rows: 350px !important; 
+    }
+    
+  }
+  @media (max-width: 360px) {
+    .grid-cols-4 {
+      grid-template-columns: repeat(1, 100%) !important;   
+      row-gap: 0px !important;
+      margin-left: 10% !important;
+      grid-auto-rows: 350px !important; 
+    }
+    
+  }
+
+  @media screen and (max-width: 760px) {
+    .ml-90 {
+        margin-left: 160%;
+    }
+    
+  }  
+  
+  @media screen and (max-width: 580px) {
+    .ml-90 {
+        margin-left: 150%;
+    }
+  }  
+
+  @media screen and (max-width: 480px) {
+    .ml-90 {
+        margin-left: 135%;
+    }
+  }  

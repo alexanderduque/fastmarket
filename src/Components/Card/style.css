@@ -1,0 +1,13 @@
+@media (max-width: 520px) {
+    .w-56{
+        width: 90% !important;
+    }
+    .h-60{
+        height: 70% !important;
+    }
+    
+    .mb-10{
+     margin-bottom: 10px !important;
+    }
+    
+  }
