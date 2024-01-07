@@ -13,7 +13,7 @@ const Footer = () => {
         
         <footer className="flex w-full h-72 bg-gray-200 mt-40">
 
-        <div className="bg-gray-200  flex text-black gap-24 gap-1100 ml-20 w-96">
+        <div className="bg-gray-200  flex text-black gap-24 gap-1100 ml-20 w-96 mtt-10">
         
         <div>
             <h2 className=" font-semibold mb-4">Sobre Nosotros</h2>
@@ -47,7 +47,7 @@ const Footer = () => {
 
         <div className="bg-gray-200  text-black mt-10 ml-60">
             <div className=" font-semibold redes">
-            ENCUENTRANOS EN
+            Encuéntranos En
             </div>
             <div className='flex gap-14 mt-6 gap-1300 cursor-pointer redes'>
                 <img src={facebook} alt=""  className='h-8 transition-transform duration-300 transform hover:scale-150'/>

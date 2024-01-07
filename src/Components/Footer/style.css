@@ -1,3 +1,6 @@
+.mtt-10{
+  margin-top: 39px;
+}
 @media (max-width: 1300px) {
     .gap-1300 {
       gap: 10% !important; 
@@ -47,7 +50,7 @@
 
   }
   
-  @media (min-width:600px){
+  @media (min-width:630px){
     
     #ul-secction1 li span:nth-child(2){
       display: none;
@@ -55,8 +58,12 @@
     #ul-secction2 li span:nth-child(2){
       display: none;
     }
+    
   }
-  @media (max-width: 600px) {
+  @media (max-width: 630px) {
+    .mtt-10{
+      margin-top: 0px !important;
+    }
     .font-semibold{
 
       display: none !important;
@@ -72,9 +79,7 @@
     .mt-20{
       margin-top: 10px !important;
     }
-    .mt-10{
-      margin-top: 2px !important;
-    }
+    
     
       .bg-gray-200 {
         flex-direction: column; /* Cambia la dirección del flexbox a columna */
