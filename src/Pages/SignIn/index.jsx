@@ -58,9 +58,9 @@ const SignIn = () => {
     context.setAccount(data)
     //sign in
  
-   
+    navigate('/sign-in');
   }
-  console.log("FUNCION",createAnAccount)
+
 }
 
   //funtion renderView
