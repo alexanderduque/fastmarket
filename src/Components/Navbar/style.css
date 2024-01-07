@@ -37,7 +37,7 @@
   }
   .hamburger-menu .menu li {
     /* Estilos específicos para los elementos <li> dentro de la lista */
-    width: 200px; /* Cambia el ancho a lo que desees */
+    width: 30px; /* Cambia el ancho a lo que desees */
     margin-top: 10px;
   }
   
