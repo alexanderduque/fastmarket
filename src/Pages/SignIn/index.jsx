@@ -42,26 +42,21 @@ const SignIn = () => {
   }
 
   //funtion form
-  const createAnAccount = () => {
-    const formData = new FormData(form.current)
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const password = formData.get('password');
+const createAnAccount = () => {
+  const formData = new FormData(form.current);
+  const name = formData.get('name');
+  const email = formData.get('email');
+  const password = formData.get('password');
 
-    if (name && email && password) { // Verifica si los campos están llenos
-      const data = { name, email, password };
+  if (name && email && password) {
+    const data = { name, email, password };
     
+    localStorage.setItem('account', JSON.stringify(data));
+    context.setAccount(data);
 
-    //create Account
-    const stringifiedAccount = JSON.stringify(data)
-    localStorage.setItem('account', stringifiedAccount)
-    context.setAccount(data)
-    //sign in
- 
-    navigate('/sign-in');
+    navigate('/');
   }
-
-}
+};
 
   //funtion renderView
 
