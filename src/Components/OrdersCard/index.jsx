@@ -2,6 +2,7 @@ import {CalendarDaysIcon} from '@heroicons/react/24/solid'
 import {ShoppingCartIcon} from '@heroicons/react/24/solid'
 import {ChevronDoubleRightIcon} from '@heroicons/react/24/solid'
 import {dateTime} from '../../utils/data'
+import './style.css'
 
 
 
@@ -17,7 +18,7 @@ const OrdersCard = ({totalPrice,totalProducts}) => {
         <>
    
         <div className='flex justify-between items-center mb-6 border text-white w-80 p-4 rounded-lg '>
-        <div className='flex justify-between w-60'>
+        <div className='flex justify-between w-80'>
           <p className='flex flex-col'>
           <span className=' font-light flex items-center'>
             <CalendarDaysIcon className="w-5 h-4 mr-3"/>Fecha: {orderDate}

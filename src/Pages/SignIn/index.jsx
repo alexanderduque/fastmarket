@@ -136,7 +136,7 @@ const createAnAccount = () => {
         <div className='flex flex-col gap-1'>
           <label htmlFor="password" className=' font-medium text-sm'>Your password:</label>
           <input
-            type="password"
+            type="text"
             id='password'
             name='password'
             defaultValue={parsedAccount?.password}
